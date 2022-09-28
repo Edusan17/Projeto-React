@@ -1,0 +1,22 @@
+.titulo {
+    color: green;
+    text-align: center;
+}
+
+.img {
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin : 0 auto;
+    transition: all .5s;
+    border: 5px solid #075800;
+}
+
+.img:hover {
+    border: 5px solid #075800;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(20px 7px 1px #075800(0,0,0,.5));
+    filter: drop-shadow(20px 7px 1px #075800(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
