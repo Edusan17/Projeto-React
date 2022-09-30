@@ -1,0 +1,34 @@
+.textos {
+    font-weight: bold !important;
+  }
+  
+  .imagem-login {
+      background-image: url(https://i.imgur.com/H88yIo2.png);
+      background-repeat: no-repeat;
+      width: 100vh;
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .btn-login {
+    background: linear-gradient(45deg, #3646da 30%, #4eade4 100%) !important;
+    border: 0;
+    border-radius: 3;
+    color: rgb(0, 0, 0);
+    height: 6vh;
+    padding: 0 30px;
+  }
+  
+  .btn-login:hover {
+    background: linear-gradient(45deg, #3a4ebd 30%, #78c4f0 100%) !important;
+    border: 0 !important;
+    border-radius: 3 !important;
+    color: rgb(0, 0, 0) !important;
+    height: 6vh !important;
+    padding: 0 18px !important;
+  }
+  
+  .text-decorator-none {
+    text-decoration: none;
+  }

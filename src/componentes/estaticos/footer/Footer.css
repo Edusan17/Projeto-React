@@ -1,0 +1,18 @@
+.box1 {
+    background-color: #ec0c0c;
+    height: 120px;
+    color: white;
+    font-size: 100px !important;
+  }
+  
+  .redes {
+    color: white;
+    font-size: 200px ;
+    margin-top: 5px;
+  }
+  
+  .copyright {
+    background-color: #303F9F; 
+    height: 60px;
+    color: white;
+  }
