@@ -17,13 +17,13 @@ function Footer() {
                             </Box>
                             <Box display="flex" alignItems="center" justifyContent="center">
                                 <a href="facebook.com.br" target="_blank">
-                                    <FacebookIcon className='redes' />
+                                        <FacebookIcon style={{ fontSize: 55, color:"white" }} />
                                 </a>
                                 <a href="https://www.instagram.com/duuh_sanx/" target="_blank">
-                                    <InstagramIcon className='redes' />
+                                    <InstagramIcon style={{ fontSize: 55, color:"white" }} />
                                 </a>
                                 <a href="https://www.linkedin.com/in/eduardo-cordeiro-dos-santos-31a4291a1/" target="_blank">
-                                    <LinkedInIcon className='redes' />
+                                    <LinkedInIcon style={{ fontSize: 55, color:"white" }} />
                                 </a>
                             </Box>
                             </Box>
