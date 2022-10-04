@@ -16,6 +16,7 @@ function Login() {
       nome:'',
       usuario: '',
       senha: '',
+      foto: '',
       token: ''
     }
   )
