@@ -49,7 +49,7 @@ function Login() {
   return (
     <>
       <Grid
-        container
+        container className="fundo"
         direction="row"
         justifyContent="center"
         alignItems="center"

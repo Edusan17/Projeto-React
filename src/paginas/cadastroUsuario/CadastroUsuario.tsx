@@ -69,7 +69,7 @@ function CadastroUsuario() {
                         </Typography>
                         <TextField value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                             id="nome"
-                            label="nome"
+                            label="Nome"
                             placeholder="Entre com seu usuário"
                             name="nome"
                             margin="normal"
@@ -78,7 +78,7 @@ function CadastroUsuario() {
                         />
                         <TextField value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                             id="usuario"
-                            label="usuario"
+                            label="Usuário"
                             variant="outlined"
                             name="usuario"
                             margin="normal"
@@ -87,7 +87,7 @@ function CadastroUsuario() {
                         />
                         <TextField value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                             id="senha"
-                            label="senha"
+                            label="Senha"
                             variant="outlined"
                             name="senha"
                             margin="normal"
@@ -97,7 +97,7 @@ function CadastroUsuario() {
                         />
                         <TextField value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)}
                             id="confirmarSenha"
-                            label="confirmarSenha"
+                            label="Confirmar senha"
                             variant="outlined"
                             name="confirmarSenha"
                             margin="normal"
