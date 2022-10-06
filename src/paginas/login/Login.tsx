@@ -60,7 +60,6 @@ function Login() {
               <Typography
                 variant="h3"
                 gutterBottom
-                color="textPrimary"
                 component="h3"
                 align="center"
                 className='textos'
@@ -70,16 +69,15 @@ function Login() {
               <TextField value={userLogin.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                 id="usuario"
                 label="Usuário"
-                placeholder="Entre com seu usuário"
+                placeholder="Entre com seu usuário" className='textos2'
                 name="usuario"
                 margin="normal"
                 fullWidth
-                variant="outlined"
               />
               <TextField value={userLogin.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                 id="senha"
                 label="Senha"
-                variant="outlined"
+                className='textos2'
                 name="senha"
                 margin="normal"
                 type="password"
@@ -94,7 +92,7 @@ function Login() {
             </form>
             <Box display='flex' justifyContent='center' marginTop={2}>
               <Box marginRight={1}>
-                <Typography variant='subtitle1' gutterBottom align='center'>
+                <Typography variant='subtitle1' gutterBottom align='center' className='textos'>
                   Não tem uma conta?
                 </Typography>
               </Box>

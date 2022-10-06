@@ -1,13 +1,37 @@
 .textos {
     font-weight: bold !important;
+    color: white !important;
+  }
+
+  .colortxt {
+    font-weight: bold !important;
+    color: rgb(5, 2, 59) !important;
+    }
+
+  .textos2 {
+    outline: 2px solid white;
+  }
+
+  .textos3 {
+    outline: 2px solid rgb(10, 3, 109);
   }
 
   .fundo {
+<<<<<<< HEAD
     background-image: url(https://imgur.com/TgyvqKz)
   }
   
   .imagem-login {
       background-image: url(https://imgur.com/BPbWofC);
+=======
+    background-image: url(https://i.imgur.com/BPbWofC.jpg);
+    width: 300px;
+    height: 690px;
+  }
+  
+  .imagem-login {
+      background-image: url(https://i.imgur.com/TgyvqKz.jpg);
+>>>>>>> 7756ec453c1d20b2a33867666f48860e8617496d
       background-repeat: no-repeat;
       width: 100vh;
       min-height: 100vh;

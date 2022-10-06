@@ -1,11 +1,4 @@
-.imagem2{
-    background-image: url(https://ltp-medias.s3.eu-west-3.amazonaws.com/wp-content/uploads/2022/09/18075433/tekken-8-image-3.jpg);
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
+
 
 .textos2{
     font-weight: bold !important;
@@ -23,3 +16,18 @@
   .btnCancelar {
     margin-right: 20px !important;
   }
+
+  .fundo2 {
+    background-image: url(https://i.imgur.com/PWgze5O.jpg);
+    width: 300px;
+    height: 690px;
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .corfund3 {
+    background-color: #030522;
+    }

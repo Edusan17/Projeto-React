@@ -3,48 +3,48 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { Box, Grid, Button } from '@mui/material';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Navbar.css'
 
 function Navbar() {
     return (
         <>
-            <AppBar position="static" className="fundo1">
-                <Toolbar variant="dense">
-                    <Box style={{ cursor: "pointer" }} >
-                        <Typography variant="h4" color="inherit">
-                            Tekken
+            <AppBar position="static" style={{ backgroundColor: 'black' }}>
+                <Toolbar variant="dense" space-between>
+                    <Box style={{ cursor: "pointer" }} paddingX={5}>
+                        <Typography variant="h3" color="inherit" className='txt7'>
+                            TEKKEN
                         </Typography>
                     </Box>
 
                     <Box display="flex" justifyContent="start">
-                        <Box mx={1} style={{ cursor: "pointer" }}>
-                            <Typography variant="h6" color="inherit">
+                        <Box mx={1} style={{ cursor: "pointer" }} paddingX={9}>
+                            <Typography variant="h5" color="inherit" className='txt6'>
                                 Home
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
-                            <Typography variant="h6" color="inherit">
+                        <Box mx={1} style={{ cursor: "pointer" }} paddingX={9}>
+                            <Typography variant="h5" color="inherit" className="txt7">
                                 Historias
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
-                            <Typography variant="h6" color="inherit">
+                        <Box mx={1} style={{ cursor: "pointer" }} paddingX={8}>
+                            <Typography variant="h5" color="inherit" className="txt7">
                                 Personagens
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
-                            <Typography variant="h6" color="inherit">
+                        <Box mx={1} style={{ cursor: "pointer" }} paddingX={8}>
+                            <Typography variant="h5" color="inherit" className="txt7">
                                 Jogos
                             </Typography>
                         </Box>
-                        <Link to='/login' className='text-decorator-none'>
-                            <Box mx={1} className='cursor'>
+                        <Box mx={1} className='cursor'>
+                            <Link to='/login' className='text-decorator-none'>
                                 <Typography variant="h6" color="inherit" >
-                                   <Button className='btn-login' variant='contained'>logout</Button> 
+                                    <Button className='btn-login txt7' variant='contained'>logout</Button>
                                 </Typography>
-                            </Box>
-                        </Link>
+                            </Link>
+                        </Box>
                     </Box>
 
                 </Toolbar>
