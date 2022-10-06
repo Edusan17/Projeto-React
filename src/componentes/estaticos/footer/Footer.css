@@ -16,3 +16,6 @@
     height: 60px;
     color: white;
   }
+.text-decorator-none {
+  text-decoration: none !important;
+}
