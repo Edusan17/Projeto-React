@@ -16,8 +16,8 @@ function Navbar() {
                             TEKKEN
                         </Typography>
                     </Box>
-
-                    <Box display="flex" justifyContent="start">
+                    <Grid container justifyContent="flex-end">
+                        <Box display="flex" justifyContent="start">
                         <Box mx={1} style={{ cursor: "pointer" }} >
                             <Typography variant="h5" color="inherit" className='txt6'>
                                 Home
@@ -46,7 +46,7 @@ function Navbar() {
                             </Link>
                         </Box>
                     </Box>
-
+                    </Grid>
                 </Toolbar>
             </AppBar>
         </>
