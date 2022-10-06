@@ -83,21 +83,8 @@ function CadastroUsuario() {
                             variant="outlined"
                             name="usuario"
                             margin="normal"
-<<<<<<< HEAD
-                            placeholder="Entre com seu usuário"
-                            fullWidth
-                        />
-                         <TextField value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
-                            id="foto"
-                            label="Foto"
-                            variant="outlined"
-                            name="foto"
-                            margin="normal"
-                            placeholder="Entre com sua foto"
-=======
                             placeholder="Entre com seu usuario"
                             className='textos3 textos'
->>>>>>> 7756ec453c1d20b2a33867666f48860e8617496d
                             fullWidth
                         />
                         <TextField value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
@@ -130,10 +117,7 @@ function CadastroUsuario() {
                             margin="normal"
                             type="password"
                             placeholder="Entre com sua senha novamente"
-<<<<<<< HEAD
-=======
                             className='textos3 textos'
->>>>>>> 7756ec453c1d20b2a33867666f48860e8617496d
                             fullWidth
                         />
                         <Box marginTop={2} textAlign='center'>

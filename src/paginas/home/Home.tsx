@@ -23,11 +23,7 @@ function Home() {
                     <img src="https://i.imgur.com/8FxCpmd.jpg" alt="" width="780px" height="470px" />
                 </Grid>
                 <Grid xs={12} style={{ backgroundColor: "white" }}>
-<<<<<<< HEAD
                 <TabPostagem />
-=======
-                    <TabPostagem />
->>>>>>> 7756ec453c1d20b2a33867666f48860e8617496d
                 </Grid>
                 </Grid>
             

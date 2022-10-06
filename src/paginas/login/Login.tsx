@@ -49,7 +49,7 @@ function Login() {
   return (
     <>
       <Grid
-        container className="fundo"
+        container className="imagem-login fundo"
         direction="row"
         justifyContent="center"
         alignItems="center"
@@ -101,9 +101,8 @@ function Login() {
               </Link>
             </Box>
           </Box>
-
         </Grid>
-        <Grid xs={6} className='imagem-login'>
+        <Grid xs={6} className='fundo'>
         </Grid>
       </Grid>
     </>

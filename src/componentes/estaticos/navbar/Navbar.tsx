@@ -11,29 +11,29 @@ function Navbar() {
         <>
             <AppBar position="static" style={{ backgroundColor: 'black' }}>
                 <Toolbar variant="dense" space-between>
-                    <Box style={{ cursor: "pointer" }} paddingX={5}>
+                    <Box style={{ cursor: "pointer" }} >
                         <Typography variant="h3" color="inherit" className='txt7'>
                             TEKKEN
                         </Typography>
                     </Box>
 
                     <Box display="flex" justifyContent="start">
-                        <Box mx={1} style={{ cursor: "pointer" }} paddingX={9}>
+                        <Box mx={1} style={{ cursor: "pointer" }} >
                             <Typography variant="h5" color="inherit" className='txt6'>
                                 Home
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }} paddingX={9}>
+                        <Box mx={1} style={{ cursor: "pointer" }} >
                             <Typography variant="h5" color="inherit" className="txt7">
                                 Historias
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }} paddingX={8}>
+                        <Box mx={1} style={{ cursor: "pointer" }} >
                             <Typography variant="h5" color="inherit" className="txt7">
                                 Personagens
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }} paddingX={8}>
+                        <Box mx={1} style={{ cursor: "pointer" }} >
                             <Typography variant="h5" color="inherit" className="txt7">
                                 Jogos
                             </Typography>
