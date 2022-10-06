@@ -25,7 +25,8 @@ function Home() {
                 <Grid xs={12} style={{ backgroundColor: "white" }}>
                     <TabPostagem />
                 </Grid>
-            </Grid>
+                </Grid>
+            
         </>
     );
 }
