@@ -49,7 +49,7 @@ function Login() {
   return (
     <>
       <Grid
-        container className="imagem-login fundo"
+        container className="imagem-login "
         direction="row"
         justifyContent="center"
         alignItems="center"

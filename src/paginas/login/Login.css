@@ -10,6 +10,7 @@
 
   .textos2 {
     outline: 2px solid white;
+    color: white !important;
   }
 
   .textos3 {
@@ -32,16 +33,16 @@
   }
   
   .btn-login {
-    background: linear-gradient(45deg, #3646da 30%, #4eade4 100%) !important;
+    background: linear-gradient(45deg, #191066 30%, #721010 80%) !important;
     border: 0;
     border-radius: 3;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     height: 6vh;
     padding: 0 30px;
   }
   
   .btn-login:hover {
-    background: linear-gradient(45deg, #3a4ebd 30%, #78c4f0 100%) !important;
+    background: linear-gradient(45deg, #2515b6 30%, #c01717 70%) !important;
     border: 0 !important;
     border-radius: 3 !important;
     color: rgb(255, 255, 255) !important;

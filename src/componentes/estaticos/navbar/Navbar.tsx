@@ -19,7 +19,7 @@ function Navbar() {
                     <Grid container justifyContent="flex-end">
                         <Box display="flex" justifyContent="start">
                         <Box mx={1} style={{ cursor: "pointer" }} >
-                            <Typography variant="h5" color="inherit" className='txt6'>
+                            <Typography variant="h5" color="inherit" className='txt7'>
                                 Home
                             </Typography>
                         </Box>
