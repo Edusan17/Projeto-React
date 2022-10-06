@@ -30,7 +30,7 @@ function Footer() {
                         </Box>
                         <Box style={{ backgroundColor: "black", height: "60px" }}>
                             <Box paddingTop={1}>
-                                <Typography variant="subtitle2" className='txt7 text-decorator-none' align="center" gutterBottom style={{ color: "white"}} >© 2022 Copyright:</Typography>
+                                <Typography variant="subtitle2" className='txt7' align="center" gutterBottom style={{ color: "white"}} >© 2022 Copyright:</Typography>
                             </Box>
                             <Box>
                                 <a target="_blank" className="text-decorator-none" href="https://github.com/Edusan17">

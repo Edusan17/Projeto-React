@@ -96,7 +96,7 @@ function Login() {
                   Não tem uma conta?
                 </Typography>
               </Box>
-              <Link className=' text-decorator-none' to='/cadastrousuario'>
+              <Link className='text-decorator-none' to='/cadastrousuario'>
                 <Typography variant='subtitle1' gutterBottom align='center' className='textos text-decorator-none'>Cadastre-se</Typography>
               </Link>
             </Box>
