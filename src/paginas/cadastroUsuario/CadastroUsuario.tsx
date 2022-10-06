@@ -1,5 +1,5 @@
-import React , {useState, useEffect, ChangeEvent } from 'react';
-import { useNavigate} from 'react-router-dom';
+import React, { useState, useEffect, ChangeEvent } from 'react';
+import { useNavigate } from 'react-router-dom';
 import User from '../../models/User';
 import { cadastroUsuario } from '../../services/Service';
 import { Grid, Typography, Button, TextField } from '@material-ui/core';
@@ -17,7 +17,7 @@ function CadastroUsuario() {
             nome: '',
             usuario: '',
             senha: '',
-            foto:''
+            foto: ''
         })
     const [userResult, setUserResult] = useState<User>(
         {
@@ -25,7 +25,7 @@ function CadastroUsuario() {
             nome: '',
             usuario: '',
             senha: '',
-            foto:''
+            foto: ''
         })
     useEffect(() => {
         if (userResult.id != 0) {
@@ -52,7 +52,7 @@ function CadastroUsuario() {
     }
 
     return (
-        <Grid container direction='row' justifyContent='center' alignItems='center'>
+        <Grid container className="fundo2" direction='row' justifyContent='center' alignItems='center'>
             <Grid item xs={6} className='imagem2'></Grid>
             <Grid item xs={6} alignItems='center'>
                 <Box paddingX={10}>
@@ -63,17 +63,18 @@ function CadastroUsuario() {
                             color="textPrimary"
                             component="h3"
                             align="center"
-                            className='textos2'
+                            className='colortxt'
                         >
                             Cadastrar
                         </Typography>
                         <TextField value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                             id="nome"
                             label="Nome"
-                            placeholder="Entre com seu usuário"
+                            placeholder="Entre com seu nome"
                             name="nome"
                             margin="normal"
                             fullWidth
+                            className='textos3 textos'
                             variant="outlined"
                         />
                         <TextField value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
@@ -82,9 +83,21 @@ function CadastroUsuario() {
                             variant="outlined"
                             name="usuario"
                             margin="normal"
-                            placeholder="Entre com sua senha"
+                            placeholder="Entre com seu usuario"
+                            className='textos3 textos'
                             fullWidth
                         />
+                        <TextField value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
+                            id="foto"
+                            label="Foto"
+                            variant="outlined"
+                            name="foto"
+                            margin="normal"
+                            placeholder="Entre com sua foto"
+                            className='textos3 textos'
+                            fullWidth
+                        />
+
                         <TextField value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                             id="senha"
                             label="Senha"
@@ -93,6 +106,7 @@ function CadastroUsuario() {
                             margin="normal"
                             type="password"
                             placeholder="Entre com sua senha"
+                            className='textos3 textos'
                             fullWidth
                         />
                         <TextField value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)}
@@ -102,7 +116,8 @@ function CadastroUsuario() {
                             name="confirmarSenha"
                             margin="normal"
                             type="password"
-                            placeholder="Entre com sua senha"
+                            placeholder="Entre com sua senha novamente"
+                            className='textos3 textos'
                             fullWidth
                         />
                         <Box marginTop={2} textAlign='center'>
@@ -112,8 +127,8 @@ function CadastroUsuario() {
                                 </Button>
                             </Link>
                             <Button type='submit' variant='contained' className="btn-login">
-                                    Cadastrar
-                                </Button>
+                                Cadastrar
+                            </Button>
                         </Box>
                     </form>
                 </Box>
