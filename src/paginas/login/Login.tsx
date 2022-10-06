@@ -106,7 +106,6 @@ function Login() {
 
         </Grid>
         <Grid xs={6} className='imagem-login'>
-
         </Grid>
       </Grid>
     </>

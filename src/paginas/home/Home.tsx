@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Grid, Button } from '@material-ui/core';
 import { Box } from '@mui/material';
 import "./Home.css";
+import TabPostagem from '../../componentes/postagens/tabpostagem/TabPostagem';
 
 function Home() {
     return (
@@ -22,6 +23,7 @@ function Home() {
                     <img src="https://sm.ign.com/ign_de/news/t/tekken-8-t/tekken-8-the-exclusive-first-interview-with-katsuhiro-harada_wj55.jpg" alt="" width="670px" height="450px" />
                 </Grid>
                 <Grid xs={12} style={{ backgroundColor: "white" }}>
+                <TabPostagem />
                 </Grid>
             </Grid>
         </>

@@ -70,7 +70,7 @@ function CadastroUsuario() {
                         <TextField value={user.nome} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
                             id="nome"
                             label="Nome"
-                            placeholder="Entre com seu usuário"
+                            placeholder="Entre com seu nome"
                             name="nome"
                             margin="normal"
                             fullWidth
@@ -82,7 +82,16 @@ function CadastroUsuario() {
                             variant="outlined"
                             name="usuario"
                             margin="normal"
-                            placeholder="Entre com sua senha"
+                            placeholder="Entre com seu usuário"
+                            fullWidth
+                        />
+                         <TextField value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
+                            id="foto"
+                            label="Foto"
+                            variant="outlined"
+                            name="foto"
+                            margin="normal"
+                            placeholder="Entre com sua foto"
                             fullWidth
                         />
                         <TextField value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)}
@@ -102,7 +111,7 @@ function CadastroUsuario() {
                             name="confirmarSenha"
                             margin="normal"
                             type="password"
-                            placeholder="Entre com sua senha"
+                            placeholder="Entre com sua senha novamente"
                             fullWidth
                         />
                         <Box marginTop={2} textAlign='center'>
