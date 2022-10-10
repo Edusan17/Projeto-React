@@ -19,3 +19,8 @@
 .text-decorator-none {
   text-decoration: none !important;
 }
+
+.fundoFoo {
+    width: 70px;
+    height: 90px;
+}

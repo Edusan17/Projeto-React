@@ -23,7 +23,7 @@ function Navbar() {
                 <Toolbar variant="dense" space-between>
                     <Box style={{ cursor: "pointer" }} >
                         <Typography variant="h3" color="inherit" className='txt7'>
-                            TEKKEN
+                            <img src="https://www.seekpng.com/png/full/435-4350179_tekken-logo-tekken-4.png" alt="" className="logoTekken" />
                         </Typography>
                     </Box>
                     <Grid container justifyContent="flex-end">
