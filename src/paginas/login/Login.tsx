@@ -97,7 +97,7 @@ function Login() {
                 </Typography>
               </Box>
               <Link className='text-decorator-none' to='/cadastrousuario'>
-                <Typography variant='subtitle1' gutterBottom align='center' className='textos text-decorator-none'>Cadastre-se</Typography>
+                <Typography variant='subtitle1' gutterBottom align='center' className='colorcad text-decorator-none'>Cadastre-se</Typography>
               </Link>
             </Box>
           </Box>
