@@ -122,7 +122,7 @@ function CadastroTema() {
           margin="normal"
           fullWidth
         />
-        <Button type="submit" variant="contained" color="primary">
+        <Button type="submit" variant="contained" className="btn-login"> 
           Finalizar
         </Button>
       </form>
